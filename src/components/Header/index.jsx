@@ -1,10 +1,15 @@
 import styled from "styled-components"
+import FilterBar from "../FilterBar"
 
 const Header = () => {
   return (
-    <>
-      <h1>Header</h1>
-    </>
+    <header>
+      <div>
+        <h1>devjobs</h1>
+        <button>Theme</button>
+      </div>
+      <FilterBar />
+    </header>
   )
 }
 
